@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Vaadin Client">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Vaadin/vaadin-client-7.4.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Vaadin/vaadin-client-compiler-7.4.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Vaadin/vaadin-client-7.4.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Vaadin/vaadin-client-compiler-7.4.8.jar!/" />
+    </SOURCES>
+  </library>
+</component>

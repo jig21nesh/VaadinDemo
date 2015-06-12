@@ -1,0 +1,179 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="VaadinJetty" type="JettyConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="Jetty 9.2.11.v20150529" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+    <option name="UPDATING_POLICY" value="restart-server" />
+    <deployment>
+      <artifact name="VaadinDemo:war exploded">
+        <settings DEPLOYMENT_METHOD="contexts" />
+      </artifact>
+    </deployment>
+    <server-settings>
+      <data>
+        <option name="configFiles">
+          <list>
+            <JettyConfigFile>
+              <option name="path" value="modules\annotations.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\cdi.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\client.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\continuation.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\debug.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\deploy.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\ext.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\fcgi.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\hawtio.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\home-base-warning.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\http.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\https.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\ipaccess.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\jaas.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\jamon.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\jaspi.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\jminix.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\jmx-remote.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="active" value="true" />
+              <option name="path" value="modules\jmx.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\jndi.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\jolokia.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\jsp.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\jstl.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\jvm.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\logging.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\lowresources.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\monitor.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\plus.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\protonego.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\proxy.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\quickstart.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\requestlog.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\resources.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\rewrite.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\security.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\server.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\servlet.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\servlets.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\setuid.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\spdy.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\spring.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\ssl.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\stats.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\webapp.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\websocket.mod" />
+            </JettyConfigFile>
+            <JettyConfigFile>
+              <option name="path" value="modules\xinetd.mod" />
+            </JettyConfigFile>
+          </list>
+        </option>
+      </data>
+    </server-settings>
+    <predefined_log_file id="Jetty" enabled="true" />
+    <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <ConfigurationWrapper VM_VAR="" RunnerId="Run">
+      <option name="USE_ENV_VARIABLES" value="true" />
+      <STARTUP>
+        <option name="USE_DEFAULT" value="true" />
+        <option name="SCRIPT" value="" />
+        <option name="VM_PARAMETERS" value="" />
+        <option name="PROGRAM_PARAMETERS" value="" />
+      </STARTUP>
+      <SHUTDOWN>
+        <option name="USE_DEFAULT" value="true" />
+        <option name="SCRIPT" value="" />
+        <option name="VM_PARAMETERS" value="" />
+        <option name="PROGRAM_PARAMETERS" value="" />
+      </SHUTDOWN>
+    </ConfigurationWrapper>
+    <method>
+      <option name="BuildArtifacts" enabled="true">
+        <artifact name="VaadinDemo:war exploded" />
+      </option>
+    </method>
+  </configuration>
+</component>
